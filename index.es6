@@ -3,7 +3,7 @@ import {curry2} from 'fj-curry';
 let map = (fn, list) =>{
     let index = -1, 
     listLen = list.length, 
-    result = [...listLen];
+    result = new Array(listLen);
     
     while (++index < listLen) {
       result[index] = fn(list[index]);

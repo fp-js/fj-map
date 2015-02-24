@@ -11,6 +11,7 @@ var map = function (fn, list) {
     while (++index < listLen) {
         result[index] = fn(list[index]);
     }
+
     return result;
 };
 

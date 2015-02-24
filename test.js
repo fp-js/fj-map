@@ -14,5 +14,4 @@ it("fj-map", function () {
   assert.deepEqual(map(double, [1, 2, 3]), [2, 4, 6]);
   var doubler = map(double);
   assert.deepEqual(doubler([1, 2, 3]), [2, 4, 6]);
-  assert.deepEqual(doubler({}), [2, 4, 6]);
 });
